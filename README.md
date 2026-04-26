@@ -327,6 +327,23 @@ Texture boyutu, ekran kartınızın desteklediği maksimum çözünürlükle sı
 - **E-posta:** denizsukelebek@proton.me
 
 ---
+------------------------------------------------------------------------------------------------------------------------
+# KO - 27.04.2026 2026 - UI Editor Güncelleme Notları
+
+## Bug Düzeltmeleri
+- **UI Elemanı Silme Crash'i Düzeltildi**
+  Bir butonun altındaki image elemanı (img_l, img_r vb.) silindiğinde uygulama crash ediyordu. Bu sorun giderildi.
+
+- **Alt Eleman Referans Bellek Sorunu Giderildi**
+  UI elemanları silindikten sonra bellek yönetimi düzeltildi. Artık crash oluşmuyor.
+
+- **Render Sistem Koruması Güçlendirildi**
+  UI elemanları render edilirken oluşabilecek hatalara karşı ek kontroller eklendi.
+
+- **TexViewer Derleme Sorunu Giderildi**
+  TexViewer Debug modunda derlenememe sorunu düzeltildi.
+  
+------------------------------------------------------------------------------------------------------------------------
 
 **© Knight Online UI Editor (UIE) Kullanım Kılavuzu**  
 *Versiyon: v2.3.26.400 | Kirasoftware (2016-2026)*
